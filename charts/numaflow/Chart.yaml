@@ -3,9 +3,9 @@ name: numaflow
 description: A Helm chart for installing Numaflow in Kubernetes
 
 dependencies:
-  - name: mariadb
+  - name: mysql
     repository: https://charts.bitnami.com/bitnami
-    version: ~9.3
+    version: "9.3.4"
     
 # A chart can be either an 'application' or a 'library' chart.
 #
